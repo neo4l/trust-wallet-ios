@@ -7,7 +7,7 @@ target 'Trust' do
 
   pod 'BigInt', '~> 3.0'
   pod 'R.swift'
-  pod 'JSONRPCKit', :git=> 'https://github.com/bricklife/JSONRPCKit.git'
+  pod 'JSONRPCKit', :git=> 'https://github.com/bricklife/JSONRPCKit.git' , :branch=>'master'
   pod 'PromiseKit', '~> 6.0'
   pod 'APIKit'
   pod 'Eureka'
@@ -17,7 +17,7 @@ target 'Trust' do
   pod 'KeychainSwift'
   pod 'SwiftLint'
   pod 'SeedStackViewController'
-  pod 'RealmSwift'
+  pod 'RealmSwift', '~> 3.20.0'
   pod 'Moya', '~> 10.0.1'
   pod 'CryptoSwift', '~> 0.10.0'
   pod 'Kingfisher', '~> 4.0'
